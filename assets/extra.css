@@ -1,0 +1,9 @@
+html{scroll-behavior:smooth}
+/* the theme drew this glyph from the WordPress dashicons font, which is not part of the archive */
+.mobile-menu-close:before,.ham-menu-close:before{content:"\00d7";font-family:'Montserrat',Arial,sans-serif;font-weight:400;margin-left:0}
+body.menu-open{overflow:hidden}
+/* long bare URLs in the text pushed the mobile layout wider than the screen */
+.entry-content a{overflow-wrap:anywhere}
+/* subpages have no hero photo, so the overlaid header needs room above the text */
+.privacy-policy .site-content{padding-top:12rem}
+.entry-title{overflow-wrap:anywhere}
