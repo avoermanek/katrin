@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Katrin Voermanek – Architect (Dipl.-Ing.), freelance author</title>
+<meta content="Katrin Voermanek, Dipl.-Ing. Architektur, freie Autorin: Typisch Posener, Publikationen, Lehre und Beratung." name="description"/>
+<link href="https://katrin.voermanek.net/" rel="canonical"/>
+<link href="../assets/fonts.css" rel="stylesheet"/>
+<link href="../assets/front-flex.min.css" rel="stylesheet"/>
+<link href="../assets/style.css" rel="stylesheet"/>
+<style id="bento-theme-styles-inline-css" type="text/css">
+
+		.logo {
+			padding: 0px 0;
+			padding: 0rem 0;
+		}
+	
+		@media screen and (min-width: 64em) {
+			.bnt-container {
+				max-width: 1200px;
+				max-width: 120rem;
+			}
+		}
+		@media screen and (min-width: 82.5em) {
+			.bnt-container {
+				padding: 0;
+			}
+		}
+		@media screen and (min-width: 120em) {
+			.bnt-container {
+				max-width: 1560px;
+				max-width: 156rem;
+			}
+		}
+	
+			.header-menu {
+				background-color: #eeeeee;
+			}
+		
+		body {
+			font-family: Open Sans, Arial, sans-serif;
+			font-size: 13px;
+			font-size: 1.3em;
+		}
+		.site-content h1, 
+		.site-content h2, 
+		.site-content h3, 
+		.site-content h4, 
+		.site-content h5, 
+		.site-content h6,
+		.post-header-title h1 {
+			font-family: Open Sans, Arial, sans-serif;
+		}
+		#nav-primary {
+			font-family: Montserrat, Arial, sans-serif;
+		}
+		.primary-menu > li > a,
+		.primary-menu > li > a:after {
+			font-size: 12px;
+			font-size: 1.2rem;
+		}
+	
+		.site-header,
+		.header-default .site-header.fixed-header,
+		.header-centered .site-header.fixed-header,
+		.header-side .site-wrapper {
+			background: #606060;
+		}
+		.primary-menu > li > .sub-menu {
+			border-top-color: #606060;
+		}
+		.primary-menu > li > a,
+		#nav-mobile li a,
+		.mobile-menu-trigger,
+		.mobile-menu-close,
+		.ham-menu-close {
+			color: #0a0a0a;
+		}
+		.primary-menu > li > a:hover,
+		.primary-menu > li.current-menu-item > a,
+		.primary-menu > li.current-menu-ancestor > a {
+			color: #ffffff;
+		}
+		.primary-menu .sub-menu li,
+		#nav-mobile {
+			background-color: #111111;
+		}
+		.primary-menu .sub-menu li a:hover,
+		.primary-menu .sub-menu .current-menu-item:not(.current-menu-ancestor) > a,
+		#nav-mobile li a:hover,
+		#nav-mobile .current-menu-item:not(.current-menu-ancestor) > a {
+			background-color: #333333;
+		}
+		.primary-menu .sub-menu,
+		.primary-menu .sub-menu li,
+		#nav-mobile li a,
+		#nav-mobile .primary-mobile-menu > li:first-child > a {
+			border-color: #cccccc;
+		}
+		.primary-menu .sub-menu li a {
+			color: #ffffff; 
+		}
+		.primary-menu .sub-menu li:hover > a {
+			color: #ffffff; 
+		}
+		#nav-mobile {
+			background-color: #565656;
+		}
+		#nav-mobile li a,
+		.mobile-menu-trigger,
+		.mobile-menu-close {
+			color: #ffffff;
+		}
+		#nav-mobile li a:hover,
+		#nav-mobile .current-menu-item:not(.current-menu-ancestor) > a {
+			background-color: #0a0a0a;
+		}
+		#nav-mobile li a,
+		#nav-mobile .primary-mobile-menu > li:first-child > a {
+			border-color: #cccccc;	
+		}
+		#nav-mobile li a:hover,
+		.mobile-menu-trigger-container:hover,
+		.mobile-menu-close:hover {
+			color: #2cc1bc;
+		}
+	
+		.site-content {
+			background-color: #f4f4f4;
+		}
+		.site-content h1, 
+		.site-content h2, 
+		.site-content h3, 
+		.site-content h4, 
+		.site-content h5, 
+		.site-content h6 {
+			color: #333333;
+		}
+		.products .product a h3,
+		.masonry-item-box a h2 {
+			color: inherit;	
+		}
+		.site-content {
+			color: #333333;
+		}
+		.site-content a:not(.masonry-item-link) {
+			color: #359994;
+		}
+		.site-content a:not(.page-numbers) {
+			color: #359994;
+		}
+		.site-content a:not(.ajax-load-more) {
+			color: #359994;
+		}
+		.site-content a:not(.remove) {
+			color: #359994;
+		}
+		.site-content a:not(.button) {
+			color: #359994;
+		}
+		.page-links a .page-link-text:not(:hover) {
+			color: #00B285;
+		}
+		label,
+		.wp-caption-text,
+		.post-date-blog,
+		.entry-footer, 
+		.archive-header .archive-description, 
+		.comment-meta,
+		.comment-notes,
+		.project-types,
+		.widget_archive li,
+		.widget_categories li,
+		.widget .post-date,
+		.widget_calendar table caption,
+		.widget_calendar table th,
+		.widget_recent_comments .recentcomments,
+		.product .price del,
+		.widget del,
+		.widget del .amount,
+		.product_list_widget a.remove,
+		.product_list_widget .quantity,
+		.product-categories .count,
+		.product_meta,
+		.shop_table td.product-remove a,
+		.woocommerce-checkout .payment_methods .wc_payment_method .payment_box {
+			color: #999999;
+		}
+		hr,
+		.entry-content table,
+		.entry-content td,
+		.entry-content th,
+		.separator-line,
+		.comment .comment .comment-nested,
+		.comment-respond,
+		.sidebar .widget_recent_entries ul li,
+		.sidebar .widget_recent_comments ul li,
+		.sidebar .widget_categories ul li,
+		.sidebar .widget_archive ul li,
+		.sidebar .widget_product_categories ul li,
+		.woocommerce .site-footer .widget-woo .product_list_widget li,
+		.woocommerce .site-footer .widget-woo .cart_list li:last-child,
+		.woocommerce-tabs .tabs,
+		.woocommerce-tabs .tabs li.active,
+		.cart_item,
+		.cart_totals .cart-subtotal,
+		.cart_totals .order-total,
+		.woocommerce-checkout-review-order table tfoot,
+		.woocommerce-checkout-review-order table tfoot .order-total,
+		.woocommerce-checkout-review-order table tfoot .shipping {
+			border-color: #dddddd;	
+		}
+		input[type="text"], 
+		input[type="password"], 
+		input[type="email"], 
+		input[type="number"], 
+		input[type="tel"], 
+		input[type="search"], 
+		textarea, 
+		select, 
+		.select2-container {
+			background-color: #e4e4e4;
+			color: #333333;
+		}
+		::-webkit-input-placeholder { 
+			color: #aaaaaa; 
+		}
+		::-moz-placeholder { 
+			color: #aaaaaa; 
+		}
+		:-ms-input-placeholder { 
+			color: #aaaaaa; 
+		}
+		input:-moz-placeholder { 
+			color: #aaaaaa; 
+		}
+		.pagination a.page-numbers:hover,
+		.woocommerce-pagination a.page-numbers:hover,
+		.site-content a.ajax-load-more:hover,
+		.page-links a .page-link-text:hover,
+		.widget_price_filter .ui-slider .ui-slider-range, 
+		.widget_price_filter .ui-slider .ui-slider-handle,
+		input[type="submit"],
+		.site-content .button,
+		.widget_price_filter .ui-slider .ui-slider-range, 
+		.widget_price_filter .ui-slider .ui-slider-handle {
+			background-color: #00b285;	
+		}
+		.pagination a.page-numbers:hover,
+		.woocommerce-pagination a.page-numbers:hover,
+		.site-content a.ajax-load-more:hover,
+		.page-links a .page-link-text:hover {
+			border-color: #00b285;
+		}
+		.page-links a .page-link-text:not(:hover),
+		.pagination a, 
+		.woocommerce-pagination a,
+		.site-content a.ajax-load-more {
+			color: #00b285;
+		}
+		input[type="submit"]:hover,
+		.site-content .button:hover {
+			background-color: #00906c;
+		}
+		input[type="submit"],
+		.site-content .button,
+		.site-content a.button,
+		.pagination a.page-numbers:hover,
+		.woocommerce-pagination a.page-numbers:hover,
+		.site-content a.ajax-load-more:hover,
+		.page-links a .page-link-text:hover {
+			color: #ffffff;	
+		}
+		input[type="submit"]:hover,
+		.site-content .button:hover {
+			color: #ffffff;
+		}
+		.shop_table .actions .button,
+		.shipping-calculator-form .button,
+		.checkout_coupon .button,
+		.widget_shopping_cart .button:first-child,
+		.price_slider_amount .button {
+			background-color: #999999;
+		}
+		.shop_table .actions .button:hover,
+		.shipping-calculator-form .button:hover,
+		.checkout_coupon .button:hover,
+		.widget_shopping_cart .button:first-child:hover,
+		.price_slider_amount .button:hover {
+			background-color: #777777;
+		}
+		.shop_table .actions .button,
+		.shipping-calculator-form .button,
+		.checkout_coupon .button,
+		.widget_shopping_cart .button:first-child,
+		.price_slider_amount .button {
+			color: #ffffff;
+		}
+		.shop_table .actions .button:hover,
+		.shipping-calculator-form .button:hover,
+		.checkout_coupon .button:hover,
+		.widget_shopping_cart .button:first-child:hover,
+		.price_slider_amount .button:hover {
+			color: #ffffff;
+		}
+	
+		.sidebar-footer {
+			background-color: #ffffff;
+		}
+		.site-footer {
+			color: #cccccc;
+		}
+		.site-footer a {
+			color: #ffffff;
+		}
+		.site-footer label, 
+		.site-footer .post-date-blog, 
+		.site-footer .entry-footer, 
+		.site-footer .comment-meta, 
+		.site-footer .comment-notes, 
+		.site-footer .widget_archive li, 
+		.site-footer .widget_categories li, 
+		.site-footer .widget .post-date, 
+		.site-footer .widget_calendar table caption, 
+		.site-footer .widget_calendar table th, 
+		.site-footer .widget_recent_comments .recentcomments {
+			color: #666666;
+		}
+		.sidebar-footer .widget_recent_entries ul li, 
+		.sidebar-footer .widget_recent_comments ul li, 
+		.sidebar-footer .widget_categories ul li, 
+		.sidebar-footer .widget_archive ul li {
+			border-color: #666666;
+		}
+		.bottom-footer {
+			background-color: #2d2d2d;
+			color: #666666;
+		}
+		.bottom-footer a {
+			color: #666666;
+		}
+	
+		.home.blog .post-header-title h1 {
+			color: #ffffff;
+		}
+		.home.blog .post-header-subtitle {
+			color: #cccccc;
+		}
+	
+
+				.post-header {
+					background-image: url(../assets/vom_dom_aus_edit5.jpg);
+				}
+			
+			.post-header-title h1,
+			.entry-header h1 { 
+				color: ; 
+			}
+			.post-header-subtitle {
+				color: #999999;
+			}
+			.site-content {
+				background-color: ;
+			}
+		
+				.post-header-overlay {
+					background-color: ;
+					opacity: ;
+				}
+				.post-header-subtitle {
+					margin-bottom: 0;
+				}
+				.post-header-cta a,
+				.post-header-cta div {
+					border-color: ;
+				}
+				.post-header-cta .post-header-cta-primary {
+					background-color: ;
+					color: ;
+				}
+				.post-header-cta .post-header-cta-secondary {
+					color: ;
+				}
+				.post-header-cta a:hover,
+				.post-header-cta div:hover {
+					border-color: ;
+				}
+				.post-header-cta .post-header-cta-primary:hover {
+					background-color: ;
+				}
+				.post-header-cta .post-header-cta-secondary:hover {
+					color: ;
+				}
+				.post-header-cta .post-header-cta-secondary {
+					color: ;
+					border-color: ;
+				}
+				.post-header-cta .post-header-cta-secondary:hover {
+					color: ;
+					border-color: ;
+				}
+				@media screen and (min-width: 48em) {
+					.post-header-title {
+						padding-top: 25%;
+						padding-bottom: 25%;
+					}
+				}
+			
+					.site-header.no-fixed-header {
+						background: transparent;
+						position: absolute;
+						top: 0;
+						width: 100%;
+					}
+					.primary-menu > li > .sub-menu {
+						border-top-color: transparent;
+					}
+					.no-fixed-header .primary-menu > li > a, 
+					.site-header .mobile-menu-trigger,
+					.site-header .ham-menu-trigger {
+						color: ;
+					}
+					.no-fixed-header .primary-menu > li > a:hover {
+						color: ;
+					}
+				
+				.post-header-cta a,
+				.post-header-cta div {
+					border-color: #ffffff;
+				}
+				.post-header-cta .post-header-cta-primary {
+					background-color: #ffffff;
+					color: #333333;
+				}
+				.post-header-cta a:hover,
+				.post-header-cta div:hover {
+					border-color: #cccccc;
+				}
+				.post-header-cta .post-header-cta-primary:hover {
+					background-color: #cccccc;
+				}
+				.post-header-cta .post-header-cta-secondary {
+					color: #ffffff;
+					border-color: #ffffff;
+				}
+				.post-header-cta .post-header-cta-secondary:hover {
+					color: #cccccc;
+					border-color: #cccccc;
+				}
+			
+</style>
+<style id="custom-background-css" type="text/css">
+body.custom-background { background-color: #ffffff; }
+</style>
+<style id="siteorigin-panels-layouts-head" media="all" type="text/css">/* Layout 113 */ #pgc-113-0-0 , #pgc-113-1-0 , #pgc-113-2-0 , #pgc-113-3-0 , #pgc-113-4-0 , #pgc-113-5-0 { width:100%;width:calc(100% - ( 0 * 30px ) ) } #pl-113 #panel-113-0-0-0 , #pl-113 #panel-113-1-0-0 , #pl-113 #panel-113-2-0-0 , #pl-113 #panel-113-3-0-0 , #pl-113 #panel-113-4-0-0 , #pl-113 #panel-113-5-0-0 {  } #pg-113-0 , #pg-113-1 , #pg-113-2 , #pg-113-3 , #pg-113-4 , #pl-113 .so-panel { margin-bottom:30px } #pl-113 .so-panel:last-child { margin-bottom:0px } #pg-113-0.panel-no-style, #pg-113-0.panel-has-style > .panel-row-style , #pg-113-1.panel-no-style, #pg-113-1.panel-has-style > .panel-row-style , #pg-113-2.panel-no-style, #pg-113-2.panel-has-style > .panel-row-style , #pg-113-3.panel-no-style, #pg-113-3.panel-has-style > .panel-row-style , #pg-113-4.panel-no-style, #pg-113-4.panel-has-style > .panel-row-style , #pg-113-5.panel-no-style, #pg-113-5.panel-has-style > .panel-row-style { -webkit-align-items:flex-start;align-items:flex-start } #pgc-113-4-0 , #pgc-113-5-0 { align-self:auto } @media (max-width:780px){ #pg-113-0.panel-no-style, #pg-113-0.panel-has-style > .panel-row-style , #pg-113-1.panel-no-style, #pg-113-1.panel-has-style > .panel-row-style , #pg-113-2.panel-no-style, #pg-113-2.panel-has-style > .panel-row-style , #pg-113-3.panel-no-style, #pg-113-3.panel-has-style > .panel-row-style , #pg-113-4.panel-no-style, #pg-113-4.panel-has-style > .panel-row-style , #pg-113-5.panel-no-style, #pg-113-5.panel-has-style > .panel-row-style { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-113-0 > .panel-grid-cell , #pg-113-0 > .panel-row-style > .panel-grid-cell , #pg-113-1 > .panel-grid-cell , #pg-113-1 > .panel-row-style > .panel-grid-cell , #pg-113-2 > .panel-grid-cell , #pg-113-2 > .panel-row-style > .panel-grid-cell , #pg-113-3 > .panel-grid-cell , #pg-113-3 > .panel-row-style > .panel-grid-cell , #pg-113-4 > .panel-grid-cell , #pg-113-4 > .panel-row-style > .panel-grid-cell , #pg-113-5 > .panel-grid-cell , #pg-113-5 > .panel-row-style > .panel-grid-cell { width:100%;margin-right:0 } #pl-113 .panel-grid-cell { padding:0 } #pl-113 .panel-grid .panel-grid-cell-empty { display:none } #pl-113 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } </style>
+<link href="../assets/extra.css" rel="stylesheet"/>
+</head>
+<body class="home page-template-default page page-id-113 custom-background wp-custom-logo siteorigin-panels siteorigin-panels-home no-sidebar extended-header header-hamburger">
+<div class="site-wrapper clear">
+<header class="site-header no-fixed-header">
+<div class="bnt-container">
+<div class="mobile-menu-trigger">
+<div class="mobile-menu-trigger-container">
+<div class="mobile-menu-trigger-stick">
+</div>
+<div class="mobile-menu-trigger-stick">
+</div>
+<div class="mobile-menu-trigger-stick">
+</div>
+</div>
+</div>
+<div class="mobile-menu">
+<div class="mobile-menu-shadow">
+</div>
+<div class="nav" id="nav-mobile">
+<div class="mobile-menu-close-container">
+<div class="mobile-menu-close">
+</div>
+</div>
+<nav>
+<div class="menu-container"><ul class="primary-mobile-menu" id="menu-menueonepage-1"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-77"><a href="#row_1"><span class="menu-item-inner">Typisch Posener</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-78"><a href="#row_2"><span class="menu-item-inner">Current</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79"><a href="#row_3"><span class="menu-item-inner">Publications</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-80"><a href="#row_4"><span class="menu-item-inner">Teaching</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81"><a href="#row_5"><span class="menu-item-inner">Consulting</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82"><a href="#row_6"><span class="menu-item-inner">CV</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-lang"><a href="../" hreflang="de" lang="de"><span class="menu-item-inner">Deutsch</span></a></li>
+</ul></div> </nav>
+</div>
+</div>
+<div class="logo clear"><a class="logo-image-link" href="./"><img alt="Katrin Voermanek" class="logo-fullsize" src="../assets/Header_BG6_mobil4_en.png"/><img alt="Katrin Voermanek" class="logo-mobile" src="../assets/Header_BG6_mobil4_en.png"/></a></div>
+<div class="header-menu clear">
+<div class="nav" id="nav-primary">
+<nav>
+<div class="menu-container"><ul class="primary-menu" id="menu-menueonepage-2"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-77"><a href="#row_1"><span class="menu-item-inner">Typisch Posener</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-78"><a href="#row_2"><span class="menu-item-inner">Current</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79"><a href="#row_3"><span class="menu-item-inner">Publications</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-80"><a href="#row_4"><span class="menu-item-inner">Teaching</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81"><a href="#row_5"><span class="menu-item-inner">Consulting</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82"><a href="#row_6"><span class="menu-item-inner">CV</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-lang"><a href="../" hreflang="de" lang="de"><span class="menu-item-inner">Deutsch</span></a></li>
+</ul></div> </nav>
+</div>
+</div>
+<div class="ham-menu-trigger">
+<div class="ham-menu-trigger-container">
+<div class="ham-menu-trigger-stick">
+</div>
+<div class="ham-menu-trigger-stick">
+</div>
+<div class="ham-menu-trigger-stick">
+</div>
+</div>
+</div>
+<div class="ham-menu-close-container">
+<div class="ham-menu-close">
+</div>
+</div>
+</div>
+</header>
+<!-- .site-header -->
+<div class="post-header">
+<div class="post-header-overlay">
+</div>
+<div class="bnt-container post-header-container">
+<div class="post-header-title">
+<h1></h1>
+</div>
+</div>
+</div>
+<div class="site-content">
+<div class="bnt-container">
+<div class="content content-page">
+<main class="site-main">
+<article class="post-113 page type-page status-publish hentry no-thumb" id="post-113">
+<div class="entry-content clear">
+<div class="panel-layout" id="pl-113"><a id="row_1"></a><div class="panel-grid panel-has-style" data-extraid="row_1" id="pg-113-0"><div class="row_1 panel-row-style panel-row-style-for-113-0"><div class="panel-grid-cell" id="pgc-113-0-0"><div class="so-panel widget widget_sow-editor panel-first-child panel-last-child" data-index="0" id="panel-113-0-0-0"><div class="so-widget-sow-editor so-widget-sow-editor-base"><h3 class="widget-title">Typisch Posener</h3>
+<div class="siteorigin-widget-tinymce textwidget">
+<p><img alt="Cover of Typisch Posener" class="alignleft wp-image-27 size-medium" height="300" src="../assets/typisch-posener_cover-2-182x300.jpg" width="182"/></p>
+<p>Published October 2019 (in German)</p>
+<p>Julius Posener's finest legacy may well be his language. Through his writing he saved buildings and changed the face of Berlin, without ever building himself. Katrin Voermanek follows the traces of the architectural historian, critic and activist, who died in 1996. Through nine stories about individual buildings, she traces how Posener went about his fight for the built heritage and how he voiced his criticism of new construction: at times impulsive, at times strategic, always grounded in a thorough education, with plenty of humour and a gentle verbal power that remains unmatched to this day. The short narratives, which deal with the Schaubühne, the Künstlerhaus Bethanien, the Kino Babylon and two villas by Hermann Muthesius, among others, bring the building scene of Berlin from the 1960s to the 1990s to life and demonstrate both the necessity and the effectiveness of committed architectural criticism.</p>
+<p><a href="https://www.jovis.de/de/buecher/typisch-posener.html" rel="noopener" target="_blank">https://www.jovis.de/de/buecher/typisch-posener.html</a></p>
+<p><a href="https://www.amazon.de/dp/3868595937" rel="noopener" target="_blank">https://www.amazon.de/dp/3868595937</a></p>
+<p><strong>Listening tip:</strong> <strong>WDR Zeitzeichen</strong> on the 25th anniversary of Julius Posener's death, interview by Jörg Biesler with Katrin Voermanek, <strong>29 January 2021</strong> (in German):<br/>
+<a href="https://www1.wdr.de/radio/wdr5/sendungen/zeitzeichen/posener-100.html" rel="noopener" target="_blank">https://www1.wdr.de/radio/wdr5/sendungen/zeitzeichen/posener-100.html</a></p>
+<p><strong>Reviews of the book (selection, all in German):<br/>
+</strong>at <a href="https://www.baunetz.de/meldungen/Meldungen-Typisch_Posener_7104651.html" rel="noopener" target="_blank">BauNetz.de,</a> in <a href="https://momentum-magazin.de/de/um-einen-posener-fuer-den-ingenieurbau-bittend/" rel="noopener" target="_blank">Momentum,</a> at <a href="https://www.marlowes.de/kritik-und-widerstand/" rel="noopener" target="_blank">Marlowes,</a> in <a href="https://www.bauwelt.de/rubriken/buecher/Typisch-Posener-3547936.html" rel="noopener" target="_blank">bauwelt,</a> at <a href="https://www.moderne-regional.de/100470-2/" rel="noopener" target="_blank">moderneregional.de</a> and in the <a href="https://www.byak.de/data/pdfs/DAB/Themenarchiv/Architektur_unterm_Weihnachtsbaum_2019.pdf" rel="noopener" target="_blank">Bavarian section of the Deutsches Architektenblatt</a></p>
+<p><strong>Book presentation, 20 November 2019<br/>
+</strong>7:30 pm: "Typisch Posener" at <a href="https://buecherbogen.com/veranstaltungen" rel="noopener" target="_blank">Bücherbogen am Savignyplatz</a> in Berlin. Katrin Voermanek in conversation with Alan Posener and Olaf Bartels</p>
+<p><img alt="Invitation to the book presentation" class="alignnone wp-image-247" height="434" src="../assets/Typisch-Posener_Einladung_20.11.19-150x300.jpg" width="217"/></p>
+<p><strong>4 September 2019</strong><br/>
+Joint preview reading by Katrin Voermanek and Bärbel Högner from the books "Typisch Posener" and "Le Corbusier: Unité d'habitation Typ Berlin" as part of the <a href="https://www.bauhaus100.berlin/veranstaltungen/bauhaus-posener-le-corbusier" rel="noopener" target="_blank">Berlin Bauhaus Week</a> on the central island at Ernst-Reuter-Platz in Berlin</p>
+<p><strong>28 July 2019</strong><br/>
+First reading of two building stories from the then forthcoming book on Julius Posener, followed by a discussion, as part of the exhibition "Hans Fähnle und Heinrich Palm – Nachbarschaften" (Neighbourhoods) at <a href="https://www.galerie-f%C3%A4hnle-freunde.de/r%C3%BCckschau/" rel="noopener" target="_blank">Galerie Fähnle</a> in Überlingen on Lake Constance</p>
+</div>
+</div></div></div></div></div><a id="row_2"></a><div class="panel-grid panel-has-style" data-extraid="row_2" id="pg-113-1"><div class="row_2 panel-row-style panel-row-style-for-113-1"><div class="panel-grid-cell" id="pgc-113-1-0"><div class="so-panel widget widget_sow-editor panel-first-child panel-last-child" data-index="1" id="panel-113-1-0-0"><div class="so-widget-sow-editor so-widget-sow-editor-base"><h3 class="widget-title">Current</h3>
+<div class="siteorigin-widget-tinymce textwidget">
+<p><strong>Current teaching post:</strong></p>
+<p>Since winter term 2020/2021, "Communicating Interior Architecture and Design" at <a href="https://whitecliffe.de/" rel="noopener" target="_blank">Whitecliffe University of Applied Sciences</a> (formerly Berlin International University of Applied Sciences)</p>
+</div>
+</div></div></div></div></div><a id="row_3"></a><div class="panel-grid panel-has-style" data-extraid="row_3" id="pg-113-2"><div class="row_3 panel-row-style panel-row-style-for-113-2"><div class="panel-grid-cell" id="pgc-113-2-0"><div class="so-panel widget widget_sow-editor panel-first-child panel-last-child" data-index="2" id="panel-113-2-0-0"><div class="so-widget-sow-editor so-widget-sow-editor-base"><h3 class="widget-title">Publications</h3>
+<div class="siteorigin-widget-tinymce textwidget">
+<p>In 1993 Katrin Voermanek published her first text, on an urban planning competition in Stuttgart, in the trade journal Bauwelt. Since then, countless contributions have appeared in books, catalogues, magazines, newspapers and online formats, including BauNetz, Baumeister, competitionline, db, DBZ, Detail, HÄUSER, Museumsjournal and Stuttgarter Zeitung.</p>
+<p>A small selection (most are German-language publications):</p>
+<p><a href="https://jovis.de/de/book/9783986120245" rel="noopener" target="_blank"><img alt="Cover of Das Liebling Haus" class="alignleft" height="250" src="../assets/liebling-haus-cover.jpg" width="182"/></a></p>
+<p><strong>11 / 2024<br/>
+Das Liebling Haus</strong><br/>
+Edited by Sharon Golan / Ellen Kugler / Shira Levy Benyemini<br/>
+Editing and interviews: Florian Heilmeyer and Katrin Voermanek</p>
+<p>The Liebling Haus in Tel Aviv was built in 1936 to designs by the architect Dov Karmi for Tony and Max Liebling, a couple who had fled Europe. With its light plastered façades, deep loggias, clear proportions and a floor plan oriented to the city's climate, it is a prime example of the International Style adapted to local conditions that is typical of Tel Aviv's White City. From 2015 to 2019 the house was painstakingly restored by Israeli and German planners, conservation experts and craftspeople and reopened as a lively cultural and exhibition centre. The book, published in three language editions, tells the story and development of the house and its residents through texts, interviews and the atmospheric photographs of Yael Schmidt.</p>
+<p><a href="https://jovis.de/de/book/9783986120245" rel="noopener" target="_blank">https://jovis.de/de/book/9783986120245</a></p>
+<p><a href="https://www.amazon.de/Liebling-Haus/dp/398612022X" rel="noopener" target="_blank">https://www.amazon.de/Liebling-Haus/dp/398612022X</a></p>
+<div style="clear:both"></div>
+<p><a href="https://www.amazon.de/Kultur-verstehen-Gesellschaft-ver%C3%A4ndern-Architekturvermittlung/dp/3745510771" rel="noopener" target="_blank">"Kultur verstehen. Gesellschaft verändern"</a> (Understanding culture, changing society), edited by Prof. Andrea Dreyer et al., Bauhaus-Universität Weimar, Athena-Verlag; contribution by Katrin Voermanek, "Von Julius Posener lernen" (Learning from Julius Posener).</p>
+<p>"<a href="https://www.amazon.de/Zeitenwende-Kurze-Antworten-Fragen-Gegenwart/dp/3280057043" rel="noopener" target="_blank">Zeitenwende. Kurze Antworten auf große Fragen der Gegenwart</a>" (A turning point: short answers to big questions of our time), edited by Prof. Jutta Allmendinger et al., Orell Füssli Verlag; joint contribution with Regine Leibinger on housing: "Was baucht die Stadt?" (a play on "What does the city need?" and "building").</p>
+<p><a href="https://www.jovis.de/de/buecher/product/komplexe-probleme-loesen.html" rel="noopener" target="_blank">Komplexe Probleme lösen – ein Handbuch</a> (Solving complex problems: a handbook; Institute for Fundamentals of Planning IGP, University of Stuttgart)</p>
+<p><a href="https://www.baunetz.de/meldungen/Meldungen-BAUNETZWOCHE_501_5247315.html" rel="noopener" target="_blank">BauNetz-Woche "Saarbrücken ist zurück"</a> (Saarbrücken is back; extension of the Moderne Galerie, Kuehn Malvezzi)</p>
+<p><a href="https://marcokany.de/2019/architekturfuehrer-saarland/" rel="noopener" target="_blank">Architekturführer Saarland</a> (Architectural guide to Saarland; foreword for the editors Marco Kany and Ulf Meyer)</p>
+<p><a href="https://kunstmuseum-ahrenshoop.de/ausstellungen/rueckschau/baumeister_fuer_die_kunst/" rel="noopener" target="_blank">Kunstmuseum Ahrenshoop – Baumeister für die Kunst</a> (Master builders for art; Staab Architekten)</p>
+<p><a href="https://publishup.uni-potsdam.de/opus4-ubp/frontdoor/deliver/index/docId/6971/file/broschuere_ikmz_2014.pdf" rel="noopener" target="_blank">IKMZ Golm</a> (Staab Architekten, University of Potsdam)</p>
+<p><a href="http://media.baunetz.de/dl/157261/baunetz_grenzgaenger_10.pdf" rel="noopener" target="_blank">BauNetz Grenzgänger: Thomas Willemeit, Graft</a></p>
+<p><a href="https://www.baunetz.de/talk/crystal/pdf/de/talk10.pdf" rel="noopener" target="_blank">BauNetz Apple Talk: Jürgen Mayer H.</a></p>
+<p><a href="https://www.stuttgarter-zeitung.de/inhalt.nachruf-auf-oscar-niemeyer-er-hat-der-moderne-den-samba-beigebracht.8fdae8ea-1973-4093-a0db-102191d193c5.html" rel="noopener" target="_blank">Obituary of Oscar Niemeyer</a> (Stuttgarter Zeitung, in German)</p>
+<p><a href="https://www.stuttgarter-zeitung.de/inhalt.guenter-behnisch-ist-tot-haeuser-fuer-eine-humane-gesellschaft.f75969c0-397c-44ed-a12c-462b6e7fb735.html" rel="noopener" target="_blank">Obituary of Günter Behnisch</a> (Stuttgarter Zeitung, in German)</p>
+</div>
+</div></div></div></div></div><a id="row_4"></a><div class="panel-grid panel-has-style" data-extraid="row_4" id="pg-113-3"><div class="row_4 panel-row-style panel-row-style-for-113-3"><div class="panel-grid-cell" id="pgc-113-3-0"><div class="so-panel widget widget_sow-editor panel-first-child panel-last-child" data-index="3" id="panel-113-3-0-0"><div class="so-widget-sow-editor so-widget-sow-editor-base"><h3 class="widget-title">Teaching | Lectures</h3>
+<div class="siteorigin-widget-tinymce textwidget">
+<p><strong>TEACHING, current:</strong><br/>
+since winter term 2020/2021 "Communicating Interior Architecture and Design" at <a href="https://whitecliffe.de/" rel="noopener" target="_blank">Whitecliffe University of Applied Sciences</a> (formerly Berlin International University of Applied Sciences)</p>
+<p><strong>Previously (selection):</strong></p>
+<p>10/2023 Guest lecturer in the Option Studio "Revisiting Utopia: Bio-Based Megastructures in the Texas Desert" (Regine Leibinger, Stefan Sauter, Karen Stein) at the <a href="https://www.gsd.harvard.edu/course/revisiting-utopia-bio-based-megastructures-in-the-texas-desert-m2-fall-2023/" rel="noopener" target="_blank">Harvard Graduate School of Design</a><br/>
+From winter term 2019 (most recently 2022/2023) teaching assignment "Sprache als Entwurfswerkzeug" (Language as a design tool) at the chair of Prof. Per Pedersen at <a href="https://www.b-tu.de/fg-bauen-im-bestand/" rel="noopener" target="_blank">BTU Cottbus-Senftenberg</a><br/>
+Winter term 2020/2021 teaching assignment "Architektur be-schreiben" (Describing architecture) at the chair of Design and Economical Building of <a href="https://www.b-tu.de/fg-oekonomisches-bauen/" rel="noopener" target="_blank">Prof. Cristiana da Silva, BTU Cottbus</a></p>
+<p>2010–2011 Lecturer at BTU Cottbus in the master's programme in architectural communication, "Press and public relations in an architecture office"<br/>
+2008 to 2015 Lecturer at the Institute of Architecture, TU Berlin, teaching "Presentation and moderation" within a module on academic work<br/>
+2006 to 2007 Research associate (50%) at the chair of Building Construction and Design of Prof. Regine Leibinger, TU Berlin<br/>
+2005 to 2008 Research associate (50%) at the Institute for Fundamentals of Planning, University of Stuttgart</p>
+<p><strong>LECTURES (selection):<br/>
+</strong>October 2020 "Architektur lesen – Reading Architecture", moderation of day 2 of the digital "Alternative Book Fair of the Architecture Book Publishers" (<a href="https://www.youtube.com/watch?v=tXKmv-UZAos" rel="noopener" target="_blank">YouTube</a>)<br/>
+2018 Commencement speech for the graduates of Berlin International University of Applied Sciences (today Whitecliffe University of Applied Sciences) in Berlin<br/>
+2017 Moderation of the anniversary event "25 Years of Staab Architekten" in Berlin<br/>
+2015 Lecture "Von Julius Posener lernen" (Learning from Julius Posener) at the international symposium "Architektur bildet" at the Bauhaus-Universität Weimar<br/>
+2015 Lecture "Julius Posener – Architekturkritiker, Vermittler, Aktivist" (Julius Posener: architecture critic, mediator, activist) at the study day "Architectural journalism and modernism" of the Philipps-Universität Marburg, in Berlin<br/>
+2010 Participation in the first nationwide network meeting "<a href="https://www.bundesstiftung-baukultur.de/sites/default/files/medien/1/downloads/eine_sprache_fuer_die_baukultur.pdf" rel="noopener" target="_blank">Eine Sprache für die Baukultur</a>" (A language for building culture) of the Bundesstiftung Baukultur in Berlin<br/>
+2008 Appointment lecture, University of Karlsruhe, endowed professorship "Architekturkommunikation" (Architectural communication)<br/>
+2007 Lecture "Bauen für Kinder" (Building for children) in the master's seminar "Kinderwelten" by Prof. Josef Lenz at FH Konstanz, Faculty of Architecture and Communication Design<br/>
+2005 Keynote at the presentation of the Max Taut Prize of the UdK Berlin<br/>
+<a href="../assets/080502_InterviewKatrin.mp3" rel="noopener" target="_blank">Interview</a> (audio, in German) with Birgit Klauck and Daniela Konrad, ADIP TU Berlin, on communication in architecture (2008)</p>
+</div>
+</div></div></div></div></div><a id="row_5"></a><div class="panel-grid panel-has-style" data-extraid="row_5" id="pg-113-4"><div class="row_5 panel-row-style panel-row-style-for-113-4"><div class="panel-grid-cell" id="pgc-113-4-0"><div class="so-panel widget widget_sow-editor panel-first-child panel-last-child" data-index="4" id="panel-113-4-0-0"><div class="so-widget-sow-editor so-widget-sow-editor-base"><h3 class="widget-title">Consulting | PR</h3>
+<div class="siteorigin-widget-tinymce textwidget">
+<p>Katrin Voermanek advises and writes for architecture firms, companies and institutions: since 2003 as a freelance associate for <a href="http://www.barkowleibinger.com/" rel="noopener" target="_blank">Barkow Leibinger,</a> and also, among others, for Leon Wohlhage, LIN, Regina Poly, Kirsten Schemel and Ludes Architekten, the architecture gallery "framework", Eternit, Schindler and USM. She has given seminars for the IFBau of the Architektenkammer Stuttgart, led architecture tours for, among others, the Baden-Württemberg state representation, the Hapag-Lloyd Cruises club and the Architektenkammer Hessen, and was a member of the curatorial board of commissioner-general Francesca Ferguson for the contribution "Deutschlandschaft" to the 2004 Architecture Biennale in Venice.</p>
+</div>
+</div></div></div></div></div><a id="row_6"></a><div class="panel-grid panel-has-style" data-extraid="row_6" id="pg-113-5"><div class="row_6 panel-row-style panel-row-style-for-113-5"><div class="panel-grid-cell" id="pgc-113-5-0"><div class="so-panel widget widget_sow-editor panel-first-child panel-last-child" data-index="5" id="panel-113-5-0-0"><div class="so-widget-sow-editor so-widget-sow-editor-base"><h3 class="widget-title">CV</h3>
+<div class="siteorigin-widget-tinymce textwidget">
+<p>1969 Born in Saarbrücken<br/>
+1989 to 1997 Studied architecture at the University of Stuttgart<br/>
+1994 Internship at Bauwelt<br/>
+1997 Completed her studies with a theoretical diploma thesis on "Werte und Planung" (Values and planning)<br/>
+1997 to 2001 Editor at BauNetz<br/>
+2003 to 2005 Managing partner of the PR agency Architectural Affairs<br/>
+Since 2003 Press and public relations for <a href="http://www.barkowleibinger.com/" rel="noopener" target="_blank">Barkow Leibinger</a><br/>
+02 to 08/2020 Interim editor-in-chief of <a href="https://www.baunetz.de/meldungen/index.html" rel="noopener" target="_blank">BauNetz Meldungen</a>, covering for Friederike Meyer, fellow of the Thomas Mann House Los Angeles<br/>
+05/2021 to 02/2024 Guest of the interdisciplinary working group "Zukunft der Arbeit" (Future of Work) of the Leopoldina, the Union of the German Academies of Sciences and Humanities, and acatech; chapter lead for "Die Tätigkeitsgesellschaft und die gebaute Umwelt" (The activity society and the built environment) in the position paper <a href="https://www.leopoldina.org/ergebnisse-und-termine/publikationen/detail?tx_ximaleopublication_ximaleopublicationdetail%5Bcontroller%5D=Publication&amp;tx_ximaleopublication_ximaleopublicationdetail%5Bentity%5D=488&amp;tx_ximapublication_ximaleopublicationdetail%5Baction%5D=detail&amp;cHash=3090bb44c98697f1693944356286727a" rel="noopener" target="_blank">"Die Zukunft der Arbeit"</a> (2024)<br/>
+03/2022 to 11/2024 Deputy chair of the <a href="http://www.werkbund-berlin.de/" rel="noopener" target="_blank">Deutscher Werkbund Berlin</a><br/>
+From winter term 2019, most recently 2022/23 Teaching assignment "Sprache als Entwurfswerkzeug" (Language as a design tool; bachelor and master) at the chair of Design and Building in Existing Contexts of <a href="https://www.b-tu.de/fg-bauen-im-bestand/lehre/lehrauftraege" rel="noopener" target="_blank">Prof. Per Pedersen, BTU Cottbus</a><br/>
+10/2023 Guest lecturer in the Option Studio "Revisiting Utopia: Bio-Based Megastructures in the Texas Desert" (Regine Leibinger, Stefan Sauter, Karen Stein), <a href="https://www.gsd.harvard.edu/course/revisiting-utopia-bio-based-megastructures-in-the-texas-desert-m2-fall-2023/" rel="noopener" target="_blank">Harvard Graduate School of Design</a>, fall term 2023<br/>
+as well as, in a colourful mix, freelance author, lecturer, certified yoga teacher, half-marathon runner and so on and so forth...</p>
+<p><img alt="Katrin Voermanek" class="alignnone wp-image-236" height="262" src="../assets/katrin-portrait.jpg" width="393"/></p>
+<p>Contact: <a href="mailto:k@voermanek.com">k@voermanek.com</a></p>
+</div>
+</div></div></div></div></div></div>
+</div>
+</article>
+</main>
+</div>
+</div>
+</div><!-- .site-content -->
+<div class="after-content">
+</div>
+<footer class="site-footer">
+<div class="bottom-footer clear">
+<div class="bnt-container">
+<div class="footer-menu">
+<div class="nav" id="nav-footer">
+<nav>
+<div class="menu-container"><ul class="menu-footer" id="menu-footer-menue"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-269" id="menu-item-269"><a href="impressum.html"><span class="menu-item-inner">Privacy Policy / Legal Notice</span></a></li>
+</ul></div> </nav>
+</div>
+</div>
+<div class="footer-copyright">© 2025 Katrin Voermanek. Bento theme by <a href="https://satoristudio.net/" target="blank" title="Satori Studio">Satori Studio</a></div>
+</div>
+</div>
+</footer><!-- .site-footer -->
+</div><!-- .site-wrapper -->
+<script src="../assets/menu.js"></script>
+</body>
+</html>
